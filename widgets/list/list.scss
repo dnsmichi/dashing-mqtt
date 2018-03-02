@@ -1,0 +1,60 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+// Import global settings (color, size, etc.)
+
+@import "application.scss";
+
+// ----------------------------------------------------------------------------
+// Widget-list styles
+// ----------------------------------------------------------------------------
+.widget-list {
+
+  background-color: $background-color;
+  font-size: 15px;
+
+  ol, ul {
+    text-align: left;
+    color: $label-color;
+  }
+
+  ul {
+    color: #ffffff;
+  }
+
+  ol {
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  .list-nostyle {
+    list-style: none;
+  }
+
+  .label {
+    color: $label-color;
+  }
+
+  .value {
+    float: right;
+    margin-left: 10px;
+    font-weight: 500;
+    color: $value-color;
+  }
+
+  .green {
+    background-color: $background-color-green;
+  }
+  .yellow {
+    background-color: $background-color-yellow;
+  }
+  .red {
+    background-color: $background-color-red;
+  }
+  .purple {
+    background-color: $background-color-purple;
+  }
+}

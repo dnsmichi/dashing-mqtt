@@ -1,0 +1,37 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+// Import global settings (color, size, etc.)
+
+@import "application.scss"; 
+
+// ----------------------------------------------------------------------------
+// Widget-number styles
+// ----------------------------------------------------------------------------
+.widget-simplelist {
+
+  background-color: $background-color;
+
+  .value {
+    margin-top: 40px;
+    color: $value-color;
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .green {
+    background-color: $background-color-green;
+  }
+  .yellow {
+    background-color: $background-color-yellow;
+  }
+  .red {
+    background-color: $background-color-red;
+  }
+  .purple {
+    background-color: $background-color-purple;
+  }
+}

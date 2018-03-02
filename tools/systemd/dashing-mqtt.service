@@ -1,0 +1,13 @@
+[Unit]
+Description=Dashing-MQTT host/service/network monitoring system
+After=syslog.target network.target postgresql.service mariadb.service carbon-cache.service mosquitto.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+WorkingDirectory=/usr/share/dashing-mqtt
+ExecStart=/usr/local/bin/dashing start -d -p 8006 --pid /var/run/thin.pid
+ExecStop=/usr/local/bin/dashing stop
+
+[Install]
+WantedBy=multi-user.target
