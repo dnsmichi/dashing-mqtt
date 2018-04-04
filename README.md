@@ -72,7 +72,7 @@ Git clone:
 ```
 cd /usr/share
 git clone https://github.com/dnsmichi/dashing-mqtt.git
-cd dashing-icinga2
+cd dashing-mqtt
 ```
 
 Tarball download:
