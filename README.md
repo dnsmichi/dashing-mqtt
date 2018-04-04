@@ -30,17 +30,23 @@ etc. -- literally anything which can be presented as counter or list.
 The MQTT dashboard is built on top of Dashing and connects to an MQTT broker fetching
 specific events. These updates are sent to the MQTT dashboards.
 
+![Dashing MQTT](public/dashing_mqtt_overview.png "Dashing MQTT")
+
 ## Support
 
-You are encouraged to use the existing jobs and dashboards and modify them for your own needs.
+This is a demo playground with jobs, widgets and dashboards. You can use and modify them for
+your own needs.
 
-If you have any questions, please hop onto [monitoring-portal.org](https://monitoring-portal.org).
+> Keep in mind that the authors of this project can not support your own modifications or
+> help you with advanced Ruby, etc. implementations. You can learn from this project's history.
+
+If you have any questions, please hop onto https://monitoring-portal.org
 
 ## License
 
 * Dashing is licensed under the [MIT license](https://github.com/Shopify/dashing/blob/master/MIT-LICENSE).
 * Job and dashboard have been copied from https://gist.github.com/jmb/ac36d16a5180c3d2032a
-* Layout and widgets have been imported from [dashing-icinga2](https://github.com/icinga/dashing-icinga2)
+* Layout and widgets have been imported from [dashing-icinga2](https://github.com/dnsmichi/dashing-icinga2)
 
 ## Requirements
 
@@ -53,7 +59,7 @@ Supported browsers and clients:
 * Linux, Unix, \*Pi
 * Chrome, Firefox, Safari
 
-Windows is [not supported](https://github.com/Icinga/dashing-icinga2/issues/47).
+Windows is [not supported](https://github.com/dnsmichi/dashing-icinga2/issues/47).
 
 ## Installation
 
