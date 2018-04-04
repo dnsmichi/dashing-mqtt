@@ -30,6 +30,8 @@ etc. -- literally anything which can be presented as counter or list.
 The MQTT dashboard is built on top of Dashing and connects to an MQTT broker fetching
 specific events. These updates are sent to the MQTT dashboards.
 
+> This dashboard and many other insights into MQTT and IoT can be found in [iX 04/2018](https://shop.heise.de/katalog/ix-4-2018).
+
 ![Dashing MQTT](public/dashing_mqtt_overview.png "Dashing MQTT")
 
 ## Support
